@@ -15,3 +15,5 @@ int main()
 		cout << i->first << " : " << i->second << endl; //i se vuelve el primer mapa y "->" accede al primer y segundo elemento del par (palabra, cantidad).
 	}
 }
+
+
