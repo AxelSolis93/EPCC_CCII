@@ -24,8 +24,10 @@ void letterHist(string l){
 
 int main(){
 	string word;
-// 65 = A, 90 = Z
 	cout << "Ingrese un string: " << endl;
 	cin>>word;
+	for(int i=0;i<word.size();i++){ //Convierte las mayúsculas a minúsculas
+		word.at(i)=tolower(word.at(i));
+	}
 	letterHist(word);
 }
